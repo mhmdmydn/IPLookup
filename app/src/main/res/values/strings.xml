@@ -14,4 +14,5 @@
     <string name="as_number">AS Number</string>
     <string name="organization">Organization</string>
     <string name="data_source">Data source: ipapi.co</string>
+    <string name="field_cannot_be_empty">Field cannot be empty</string>
 </resources>

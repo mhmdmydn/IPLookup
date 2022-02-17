@@ -4,6 +4,7 @@ import android.Manifest
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.viewModels
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
@@ -33,10 +34,17 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
 
         binding.btnSearch.setOnClickListener {
-            it.hideKeyboard()
-            mMap.clear()
-            val ipQuery = binding.txtSearchPhotos.text.toString()
-            viewModel.searchIp(ipQuery)
+            binding.apply {
+                if(!txtSearchPhotos.text.isNullOrEmpty()){
+                    it.hideKeyboard()
+                    mMap.clear()
+                    val ipQuery = binding.txtSearchPhotos.text.toString()
+                    viewModel.searchIp(ipQuery)
+                }else{
+                    Toast.makeText(applicationContext, getString(R.string.field_cannot_be_empty), Toast.LENGTH_SHORT).show()
+                }
+            }
+
 
         }
         setupGoogleMaps()
