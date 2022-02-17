@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IPLookup</string>
+
+    <string name="location">Location permission is required to run the demo</string>
+    <string name="hint_ip_address">Enter ip address</string>
+    <string name="btn_txt_search">Search</string>
+    <string name="ip_address">IP Address</string>
+    <string name="version">Version</string>
+    <string name="city">City</string>
+    <string name="region">Region</string>
+    <string name="country">Country</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="as_number">AS Number</string>
+    <string name="organization">Organization</string>
+    <string name="data_source">Data source: ipapi.co</string>
+</resources>
