@@ -2,8 +2,9 @@
 App to find your ip information.
 
 ## 📸 Preview
-![<img src="screenshots/local_ip.png" height="100"></img>](screenshots/local_ip.png)
-![<img src="screenshots/search_ip.png" height="100"></img>](screenshots/search_ip.png)
+| local ip | search ip |
+|:-:|:-:|
+| ![First](screenshots/local_ip.png) | ![Second](screenshots/search_ip.png) |
 
 ## Demo Application
 [<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png" alt="Download APK from GitHub" height="100">](app/release/app-release.apk)
